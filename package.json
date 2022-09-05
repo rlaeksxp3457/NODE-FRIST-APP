@@ -20,7 +20,8 @@
 	},
 	"homepage": "https://github.com/rlaeksxp3457/NODE-FRIST-APP#readme",
 	"devDependencies": {
-		"nodemon": "^2.0.19"
+		"nodemon": "^2.0.19",
+		"prettier": "2.7.1"
 	},
 	"dependencies": {
 		"body-parser": "^1.20.0",
