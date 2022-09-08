@@ -1,11 +1,14 @@
-const express = require("express");
-const path = require("path");
-const router = express.Router();
-const rootDir = require('../util/path')
+const path = require('path');
 
-/* shop.html 파일을 브라우저로 보냅니다. */
-router.get("/", (req, res, next) => {
-  res.sendFile(path.join(rootDir, "views", "shop.html"));
-});
+const express = require('express');
+
+const rootDir = require('../util/path');
+const adminData = require('./admin');
+
+const productsControllers = require('../controllers/products')
+
+const router = express.Router();
+
+router.get('/', productsControllers.getProducts);
 
 module.exports = router;
