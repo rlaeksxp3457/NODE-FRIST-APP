@@ -10,6 +10,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/views" />
+        <option value="$MODULE_DIR$/views/shop" />
       </list>
     </option>
   </component>
